@@ -8,74 +8,56 @@ const experiences = [
     location: "Remote",
     period: "2022 - Present",
     description:
-      "Heroku Eventing Metering and Usage - Leading usage-based billing, payments, and enterprise licensing at Heroku.",
+      "Working on usage-based billing, payments, and enterprise licensing at Heroku.",
     achievements: [
-      "Developing cloud platform features",
-      "Working with enterprise-scale systems",
-      "Contributing to developer experience improvements",
+      "Planned, executed, and delivered the migration of 1.5 million customers from Braintree to Stripe",
+      "Built a historical license engine, used to recoup millions of dollars in lost revenue",
+      "Led improvements to Indian E-Mandates at Heroku, saving 100’s of hours of developer toil",
+      "Automated provisioning of resources for enterprise customers, cutting wait times from 48 hours to seconds",
+      "Won 1st place in internal company wide hackathon for Best Internal Tool",
     ],
   },
   {
-    title: "Software Engineer",
-    company: "H-E-B",
-    location: "San Antonio, TX",
-    period: "2021 - 2022",
+    title: "Software Engineer Intern",
+    company: "Salesforce",
+    location: "Remote",
+    period: "May 2021 - August 2021",
     description:
-      "Developed and maintained software solutions for one of the largest private companies in the US. Worked on systems supporting retail operations and customer experiences.",
+      "Worked on the Salesforce Platform, building internal tools to help developers.",
     achievements: [
-      "Built scalable retail software solutions",
-      "Worked with high-volume transaction systems",
-      "Contributed to customer-facing applications",
+      "Delivered features and bug fixes to Salesforce’s core product, serving over 150,000 customers",
+      "Completed 9 user stories and 4 QA tasks over 12 weeks, a rate equivalent to senior engineers on the team",
+      "Enhanced UI/UX across various areas of Salesforce 1GP Packaging, a developer tool to create applications",
+      "Designed and implemented improvements to Salesforce CLI, an interface for all Salesforce DX features",
     ],
   },
   {
-    title: "Software Engineer",
+    title: "Software Engineer Intern",
+    company: "H-E-B Digital",
+    location: "Remote",
+    period: "June 2020 - August 2020",
+    description:
+      "Worked on digital retail solutions and e-commerce platform development.",
+    achievements: [
+      "Remediated online cart conflicts, an issue produced by 10.5% of API calls to change store",
+      "Implemented a Java backend microservice to supply product recommendations based on user's cart and store",
+      "Integrated backend services with GraphQL to allow for streamlined queries and mutations",
+      "Designed and implemented frontend React components to display relevant product information on the website",
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
     company: "Emerson",
     location: "Austin, TX",
-    period: "2020 - 2021",
+    period: "May 2019 - August 2019",
     description:
       "Contributed to industrial automation and technology solutions. Developed software for manufacturing and process control systems in the industrial technology sector.",
     achievements: [
-      "Developed industrial automation software",
-      "Worked with manufacturing control systems",
-      "Implemented process optimization solutions",
+      "Automated 200 integration test cases, eliminating 4800 hours of manual testing per year",
+      "Developed 200 scripts to interface with the UI, simulate clicks and enter parameters",
     ],
   },
-  {
-    title: "Senior Software Engineer",
-    company: "Tech Innovations Inc.",
-    location: "San Francisco, CA",
-    period: "2022 - Present",
-    description:
-      "Led development of microservices architecture serving 1M+ users. Mentored junior developers and implemented CI/CD pipelines that reduced deployment time by 60%.",
-    achievements: [
-      "Architected scalable backend systems",
-      "Reduced API response time by 40%",
-      "Led team of 5 developers",
-    ],
-  },
-  {
-    title: "Full Stack Developer",
-    company: "Digital Solutions Co.",
-    location: "Austin, TX",
-    period: "2020 - 2022",
-    description:
-      "Developed and maintained web applications using React and Node.js. Collaborated with design team to create responsive, user-friendly interfaces.",
-    achievements: [
-      "Built 15+ production applications",
-      "Improved user engagement by 35%",
-      "Implemented automated testing",
-    ],
-  },
-  {
-    title: "Software Developer",
-    company: "StartupXYZ",
-    location: "Remote",
-    period: "2019 - 2020",
-    description:
-      "Contributed to early-stage startup development. Built MVP features and helped scale the platform from 0 to 10,000 users.",
-    achievements: ["Developed core platform features", "Optimized database queries", "Implemented user authentication"],
-  },
+
 ]
 
 export function ExperienceSection() {

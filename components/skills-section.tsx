@@ -5,7 +5,7 @@ const skills = [
   {
     icon: Code,
     title: "Backend Development",
-    description: "Java, C#, Ruby, Elixir, Node.js, Microservices, REST APIs",
+    description: "Java, C#, Ruby, Elixir, Python, Microservices, REST APIs",
     color: "text-blue-600",
   },
   {
@@ -17,19 +17,19 @@ const skills = [
   {
     icon: Database,
     title: "Database & Query Languages",
-    description: "SQL, GraphQL, Data Analysis",
+    description: "PostgreSQL, GraphQL, Data Analysis",
     color: "text-purple-600",
   },
   {
     icon: Cloud,
     title: "Cloud & DevOps",
-    description: "AWS, Docker, Maven, Salesforce Platform",
+    description: "Heroku, AWS, Docker, Maven, Salesforce Platform",
     color: "text-orange-600",
   },
   {
     icon: Server,
     title: "Enterprise Platforms",
-    description: "Salesforce, Heroku, Dropwizard, CLI Tools",
+    description: "Salesforce, Stripe, GitHub, Splunk, Sidekiq",
     color: "text-cyan-600",
   },
   {

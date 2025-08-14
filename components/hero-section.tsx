@@ -21,7 +21,7 @@ export function HeroSection() {
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl lg:max-w-none leading-relaxed">
                 I'm a passionate software engineer, who enjoys backend development, shipping features, solving problems,
-                and the occasional dad joke.
+                and the occasional dad joke. Welcome to my website!
               </p>
             </div>
 
