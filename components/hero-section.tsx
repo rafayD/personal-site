@@ -26,24 +26,28 @@ export function HeroSection() {
             </div>
 
             <div className="flex items-center justify-center lg:justify-start gap-4 mb-12">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                <Mail className="w-4 h-4 mr-2" />
-                Get In Touch
-              </Button>
-              <Button variant="outline" size="lg">
-                <Github className="w-4 h-4 mr-2" />
-                View Projects
-              </Button>
+              <a href="mailto:rafaydin@gmail.com" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                  <Mail className="w-4 h-4 mr-2" />
+                  Get In Touch
+                </Button>
+              </a>
+              <a href="https://github.com/rafayD" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="lg">
+                  <Github className="w-4 h-4 mr-2" />
+                  View Projects
+                </Button>
+              </a>
             </div>
 
             <div className="flex items-center justify-center lg:justify-start gap-6">
-              <a href="#" className="text-muted-foreground hover:text-blue-600 transition-colors">
+              <a href="https://github.com/rafayD" className="text-muted-foreground hover:text-blue-600 transition-colors">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-blue-600 transition-colors">
+              <a href="https://www.linkedin.com/in/rafay-din/" className="text-muted-foreground hover:text-blue-600 transition-colors">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-blue-600 transition-colors">
+              <a href="mailto:rafaydin@gmail.com" className="text-muted-foreground hover:text-blue-600 transition-colors">
                 <Mail className="w-6 h-6" />
               </a>
             </div>
