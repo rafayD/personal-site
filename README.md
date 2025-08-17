@@ -4,7 +4,7 @@ A modern, responsive personal website showcasing my experience as a software eng
 
 ## 🚀 Live Site
 
-**[rafaydin.fyi](rafaydin.fyi)**
+**[https://rafaydin.fyi](https://rafaydin.fyi)**
 
 ## ✨ Features
 
