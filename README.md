@@ -4,7 +4,7 @@ A modern, responsive personal website showcasing my experience as a software eng
 
 ## 🚀 Live Site
 
-**[https://vercel.com/rafaydin-2272s-projects/v0-software-engineer-website](https://vercel.com/rafaydin-2272s-projects/v0-software-engineer-website)**
+**[rafaydin.fyi](rafaydin.fyi)**
 
 ## ✨ Features
 
